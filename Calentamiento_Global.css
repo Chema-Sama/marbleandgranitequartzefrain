@@ -1,0 +1,358 @@
+
+.sliderPrincipal {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.slider {
+    width: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-timing-function: ease-in;
+}
+
+.H1delaotra {
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+
+}
+
+.slider h1 {
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+
+}
+
+.SegundasImagenes {
+    width: 150px;
+
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Lobster', cursive;
+    size: 3px;
+}
+
+main {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*HEADER*/
+header {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ul {
+    margin: 0;
+
+}
+
+.liNav {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.liNava {
+    color: white;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.liNavb {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+#img-sequia {
+    width: 50%;
+    height: 450px;
+    background-image: url(../imgs/Imagen1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    color: #ffffff;
+    min-width: 250px;
+}
+
+#Informacion {
+    height: 1500px;
+    background-color: #000000;
+}
+
+.barraNavegacion {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.BarraGlobal{
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+.header-logo img {
+    position: relative;
+    width: 175px;
+    height: 125px;
+}
+
+/* Body */
+.mainColor {
+    background-color: #000000;
+    padding: 35px;
+}
+
+.sp {
+    padding: 20px 0;
+}
+
+.article-content-1 {
+    flex-wrap: wrap;
+}
+
+#img-planeta {
+    height: 300px;
+    background-image: url(..//imgs/f659981c21d381aba498ac17f44d5b5d-personaje-de-dibujos-animados-del-planeta-tierra-del-calentamiento-global.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    color: #ffffff;
+}
+
+.Footer{
+    padding: 15px;
+    background-color: #FF5733;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+.Footer div{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer p{
+
+    margin-top: 7px;
+    margin-left: 8px;
+
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+#img-PlanetaCasa {
+    height: 300px;
+    background-image: url(../imgs/086f82317bbb43928aa88e8ee172655e-personaje-de-dibujos-animados-de-birdhouse-earth.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    color: #ffffff;
+}
+
+/*TABLA*/
+table {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+form {
+    padding: 10px;
+    border: white 1px;
+    border-radius: 15px;
+    margin: 0 20%;
+    box-shadow: 0 5px 15px 5px rgb(165, 157, 157);
+    text-align: center;
+}
+
+#btn-banner {
+    text-decoration: underline;
+    font-family: 'Amita', cursive;
+    padding: 10px 20px;
+    background-color: rgb(42, 105, 240);
+    color: white;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 15px;
+    position: relative;
+    text-align: left;
+
+}
+
+#btn-banner:hover {
+    font-style: italic;
+    cursor: pointer;
+
+
+}
+
+.GlobalVentajas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Ventajas2 {
+    width: 50%;
+    display: block;
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 14.3px;
+    letter-spacing: 1.5px;
+    min-width: 250px;
+}
+
+#BuenGranito {
+
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#Marble {
+    display: inline-block;
+
+}
+
+#img-3 {
+    background-image: url(../imgs/Imagen3.jpeg);
+
+    background-size: contain;
+    color: #ffffff;
+}
+
+#pan {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+#segundoMain {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 14.3px;
+    letter-spacing: 4px;
+}
+
+#GlobalMarmol {
+    display: block;
+}
+
+#Marmol {
+    display: block;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+@media screen and (max-width:600px){
+    .barraNavegacion h1{
+        font-size: 20px;
+        height: 10px;
+    
+        
+    }
+    .barraNavegacion .Barra{
+        display: flex;
+        font-size: 15px;
+        width: 50px;
+        margin: 0px;
+    }
+    .BarraGlobal{
+        position: relative;
+        left: -60px;
+    }
+    header{
+        position: relative;
+        height: 100px;
+        margin-bottom: 70px;
+     
+
+    }
+    main .Spam{
+        margin-top: 17rem;
+       
+    }
+    .header-logo{
+        
+       margin-left: 30%;
+    }
+    .Spam2{
+        position: relative;
+        top: 12em;
+    }
+
+}
